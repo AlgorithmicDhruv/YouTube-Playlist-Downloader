@@ -16,7 +16,18 @@ This repository contains scripts and instructions to download and merge high-qua
 
 2. **Download and Install FFmpeg**:
     - Download FFmpeg from [ffmpeg.org](https://ffmpeg.org/download.html).
-    - Follow the instructions to add FFmpeg to your system's path variable.
+    - Make sure FFmpeg is accessible from the command line by adding it to your system's path variable.
+
+        For Windows:
+
+            - Download FFmpeg and extract it to a folder.
+            - Copy the path to the bin folder (e.g., C:\ffmpeg\bin).
+            - Open the System Properties, go to the Environment Variables, and add the path to the Path variable.
+
+        For macOS/Linux:
+
+            - export PATH="/path/to/ffmpeg/bin:$PATH"
+
 
 ## Usage
 
